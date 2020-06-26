@@ -25,13 +25,23 @@ export const styleFiche = StyleSheet.create({
   main_container:{
     flex: 1,
     flexDirection: 'row',
-    
+    ...Box,
+
 
   },
   image:{
+    flex:1,
+    width: 120,
+    height: 180,
 
   },
+  right_container:{
+    flex:2,
+    marginHorizontal:10,
+  },
   title:{
+    fontSize:17,
+    fontWeight:'bold',
 
   },
   adderant:{
@@ -41,5 +51,3 @@ export const styleFiche = StyleSheet.create({
 
   },
 });
-
-export const styleBase = StyleSheet.create({
